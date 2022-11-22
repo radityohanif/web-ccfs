@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+h1 {
+    font-family: 'Secular One', sans-serif;
+    margin: 0;
+    line-height: 0.8;
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+@keyframes fade-in {
+    0%{
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+.fade-in {
+    animation: fade-in 2s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
